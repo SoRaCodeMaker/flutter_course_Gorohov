@@ -133,7 +133,7 @@ Widget task4() {
     onPressed: () {
       print('Вы добавили в избранное');
     },
-    icon: Icon(Icons.favorite),
+    icon: Icon(Icons.favorite, color: Colors.red, size: 50),
   );
 }
 
