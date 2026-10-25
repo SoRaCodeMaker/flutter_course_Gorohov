@@ -8,7 +8,7 @@
             "name": "flutter_course",
             "request": "launch",
             "type": "dart",
-            "program": "lib/hw2/main.dart"
+            "program": "lib/lection12/main.dart"
         },
         {
             "name": "flutter_course (profile mode)",

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_course/domain/entities/catalog_anime.dart';
 
 class CatalogWidget extends StatelessWidget {
-  final CatalogAnime anime;
+  final Anime anime;
   final bool isLiked;
   final VoidCallback onLikeTap;
 
@@ -45,7 +45,7 @@ class CatalogWidget extends StatelessWidget {
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           padding: EdgeInsets.zero,
-                          shape: const CircleBorder(),
+                          shape: CircleBorder(),
                           backgroundColor: Colors.white,
                           elevation: 0,
                         ),
@@ -65,7 +65,7 @@ class CatalogWidget extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      anime.name,
+                      anime.title,
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
