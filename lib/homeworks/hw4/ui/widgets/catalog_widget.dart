@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_course/domain/entities/catalog_anime.dart';
+import 'package:flutter_course/homeworks/hw4/domain/entities/catalog_anime.dart';
 
 class CatalogWidget extends StatelessWidget {
   final Anime anime;

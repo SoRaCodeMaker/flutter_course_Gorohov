@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_course/domain/entities/catalog_anime.dart';
-import 'package:flutter_course/ui/widgets/catalog_widget.dart';
+import 'package:flutter_course/homeworks/hw4/domain/entities/catalog_anime.dart';
+import 'package:flutter_course/homeworks/hw4/ui/widgets/catalog_widget.dart';
 import 'package:http/http.dart' as http;
 
 const baseUrl = 'https://6ad561db48476c0785d97526.mockapi.io';
