@@ -9,18 +9,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const center = Center(
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.end,
-        spacing: 12,
-        children: [
-          Icon(Icons.share, color: Colors.blue),
-          Icon(Icons.sms, color: Colors.green),
-          Icon(Icons.favorite, color: Colors.yellow),
-          Icon(Icons.delete, color: Colors.red),
-        ],
-      ),
-    );
     return const MaterialApp(
       home: Scaffold(
         body: Center(
